@@ -1,26 +1,28 @@
-# 🏗️ Configure CircleCI Hello World Workflow
+# 📖 Use the Cypress CircleCI Orb to Run Component Tests
 
 Work with a partner to implement the following user story:
 
-* As a developer, I want CircleCI to run a workflow when I make changes to my GitHub code.
+* As a developer, I want to add a job in my CircleCI workflow that runs my Cypress component tests.
 
 ## Acceptance Criteria
 
-* It's done when I have created a new CircleCI account and organization.
+* It's done when a change is pushed to the `develop` branch and the CircleCI workflow successfully runs the provided Cypress component tests.
 
-* It's done when I have created a new CircleCI project and connected my GitHub repo.
+## 📝 Notes
 
-* It's done when I have added the provided `.circleci/config.yml` to my `develop` branch and the workflow runs in CircleCI.
+Refer to the documentation:
+
+[CircleCI Cypress Orb Docs](https://circleci.com/developer/orbs/orb/cypress-io/cypress)
 
 ## 💡 Hints
 
-How can I verify that the workflow has run and see the results of the workflow?
+* How can you give your job a unique name like our e2e tests?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What are some alternatives to CircleCI? What are the benefits and drawbacks of the alternatives compared to CircleCI?
+* What processes typically fall under the category of continuous integration?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

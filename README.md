@@ -1,27 +1,32 @@
-# 📖 Create and Configure GitHub Actions
+# 🐛 Tests Fail when Deploying to GitHub Actions
 
-Work with a partner to implement the following user story:
+Work with a partner to resolve the following issue(s):
 
-* As a DevOps developer, I want to set up GitHub Actions so I can automate processes on GitHub.
+* As a DevOps developer, I should ensure that all tests pass on every branch when using GitHub Actions.
 
-## Acceptance Criteria
+## Expected Behavior
 
-* It's done when I have created a `.github/workflows` folder and added a `main.yml` file.
+When a PR is created for any environment, all tests should pass in GitHub Actions.
 
-* It's done when I create a Pull Request and the GitHub Actions run as expected.
+## Actual Behavior
 
-## 📝 Notes
+When a PR is created for any environment, all tests fail in GitHub Actions.
 
-Refer to the documentation:
+## Steps to Reproduce the Problem
 
-* [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions)
+1. Add your updated `main.yml` file to the `.github/workflows` folder.
 
+2. Push changes to a new feature branch and create a Pull Request to `develop` or `staging`.
+
+3. Look in Github Actions to see where the tests failed.
+
+---
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What are some popular actions used by DevOps teams?
+* How can we enforce actions on specific branches?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
